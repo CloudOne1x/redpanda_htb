@@ -28,11 +28,7 @@ class ThreadedHTTPServer(object):
         self.server.shutdown()
         self.server.server_close()
 
-def uploadShell():
-    #Handler = SimpleHTTPServer.SimpleHTTPRequestHandler    
-    #httpd = socketserver.TCPServer(("0.0.0.0", 8000), Handler)
-    #httpd = HTTPServer(('0.0.0.0', 8000), SimpleHTTPRequestHandler)
-    
+def uploadShell():    
     # Creates a session
     s = requests.session()
 
